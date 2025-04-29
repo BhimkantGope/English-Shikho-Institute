@@ -1,27 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>English Shikho Institute</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="" content="width=device-width, initial-scale=1.0">
+    <title>http://englishseekho.co.in/</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
 </head>
-<body>  
-  <div class="login-container">
-    <form action="#">
-      <h1>Login</h1>
-      <div class="input-group">
-        <label for="username">Email</label>
-        <input type="text" placeholder="enter your email" id="username" name="username" required>
-      </div>
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" placeholder="enter your password" id="password" name="password" required>
-      </div>
-      <button type="submit">Login</button>
-      <p>Don't have an account? <a href="http://127.0.0.1:5502/signup/index.html">Sign up</a></p>
-    </form>
-  </div>
-  <script src="script.js"></script>
+<body>
+    <header id="header">
+        <div class="header-logo">
+            <img src="image/Screenshot_20250410-133044-318.png">
+            <div>
+                <h1>English सीखो</h1>
+                <p>Learn Rapidly, Speak Confidently!</p>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Courses">Courses</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="http://127.0.0.1:5502/login/index.html" title="Click to login here">Log In</a></li>
+                <li><a href="http://127.0.0.1:5502/signup/index.html" title="Click to signup here">Sign Up</a></li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!------------------------ HOME --------------------------------->
+        <section class="home main" id="Home">
+            <div class="home-content">
+              <h2>Speak English Fluently and Confidently</h2>
+              <p>Join thousands of students who transformed their English communication skills.</p>
+              <h3>Start Learning English Today!   !! Better English, Better Life !!</h3>
+              <a href="#courses" class="home-btn">Get Started     Book a Free Demo</a>
+            </div>
+        </section>
+<!-- --------------------------ABOUT--------------------------------------------- -->
+        <section class="about main" id="About">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>At Fluent English Academy, we focus on personalized English speaking courses to help you achieve your dreams - whether for study, career, or travel.</p>
+                <div class="about-content-image">
+                    <img id="hero-img" src="image/bg.jpg" alt="image">
+                </div>
+            </div>        
+            <ul class="about-list">
+                <p>Special Features!</p>
+                <li> Life time membership card.</li>
+                <li> You will be free from <br> (Hesitation, Fear, Nervousness & Shyness).</li>
+                <li> Career Guidance</li>
+                <li> Special Classes</li>
+                <li> Motivational Classes</li>
+                <li> Separate batch for working people.</li>
+                <li> Team of expert english trainers.</li>
+                <li> Camera facing / Oral test / Written test.</li>
+                <li> Course Duration : 90 Minutes</li>
+                <li> Theory : 45 Minutes, Practical : 45 Minutes</li>
+            </ul>
+        </section>
+<!--  ---------------------------------COURSES------------------------------------ -->
+        <section class="courses main" id="Courses">
+            <h2>Our Courses</h2>
+          <div class="course-cards">
+            <div class="course-card">
+              <h3>Spoken English</h3>
+              <ul>
+                <li> Basic Training</li>
+                <li> Daily Word Power (vocabulary)</li>
+                <li> Weekly English Newspaper</li>
+                <li> Speaking English Grammar</li>
+                <li> Pronunciation Training</li>
+                <li> Conversation Skills</li>
+                <li>Debate</li>
+                <li>Group Discussion</li>
+              </ul>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course-card">
+              <h3>Advance Spoken English</h3>
+              <ul>
+                <li> Presentation Skills</li>
+                <li> Corporate Training</li>
+                <li> personality Development</li>
+                <li> Body Language</li>
+                <li> Soft Skills & Life Skills</li>
+                <li> Public Speaking</li>
+                <li> Interview Skills</li>
+              </ul>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course-card">
+              <h3>Competitive English</h3>
+              <ul>
+                <li> Synonyms & Antonyms</li>
+                <li> Fill in the Blanks</li>
+                <li> Spelling Test</li>
+                <li> Idioms & Phrases</li>
+                <li> One Word Substitution</li>
+                <li> Sentence Correction / Parajumbles</li>
+                <li> Spotting the Error</li>
+                <li> Reading Comprehension</li>
+              </ul>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ----------------------------------------------Contact us--------------------------------------------- -->
+        <section class="contact main" id="Contact">
+          <div class="sub-contact">
+              <h2>Contact</h2>
+              <p>Feel free to reach out through the contact form below.</p>
+              <form class="contact-form">
+                  <input type="text" placeholder="Your Name" required>
+                  <input type="phone" placeholder="Your Phone Number" required>
+                  <input type="email" placeholder="Your Email" required>
+                  <textarea placeholder="Your Message" required></textarea>
+                  <button type="submit"><img src="image/send.png">Send</button>
+              </form>
+          </div>
+          <form id="contact-location"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49269.56494225415!2d85.29060049140574!3d23.388856713996248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1e7163af801%3A0x461d3a00c839bc1a!2zRW5nbGlzaCDgpLjgpYDgpJbgpYsgLSBCZXN0IFNwb2tlbiBFbmdsaXNoIENsYXNzIGluIExhbHB1ciBSYW5jaGk!5e0!3m2!1sen!2sin!4v1745658278225!5m2!1sen!2sin" width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></form>
+      </section>
+  </main>
+        <!-- ------------------------------TESTIMONIAL--------------------------------- -->
+        <section id="testimonials main" class="testimonials">
+          <div class="test-container">
+              <h3>What Our Students Say</h3>
+              <div class="testimonial-list">
+                  <div class="testimonial">
+                      <p>"Thanks to Fluent English Academy, I cracked my interview in just 2 months!"</p>
+                      <span>- Priya Sharma</span>
+                  </div>
+                  <div class="testimonial">
+                      <p>"Amazing trainers and friendly environment. Highly recommend!" </p>
+                      <span>- Rajesh Kumar</span>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- ------------------------------------------------------------Footer----------------------------------- -->
+
+    <footer>
+        <p>Copyright &copy; 2025 Best Spoken English Class in Lalpur Ranchi. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
+</html>
